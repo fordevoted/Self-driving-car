@@ -25,14 +25,14 @@
 6,-3<br>
 -6,-3<br>
 
-first line is beginning（x,y,φdegree）
-2,3 line indicate destination position
-line 2 is left-higher point（x,y） in the region
-line 3 is right-lower corner（x,y） in the region
-the point (x,y) of rail will show in line 4 to the last line
-last line will be same to line 4 to form a enclourse rail
-the beginning right-higher corner is (-6,-3);left-lower corner is (6,-3)
-beginning is (-6,0) -> (6,0)
+first line is beginning（x,y,φdegree）<br>
+2,3 line indicate destination position<br>
+line 2 is left-higher point（x,y） in the region<br>
+line 3 is right-lower corner（x,y） in the region<br>
+the point (x,y) of rail will show in line 4 to the last line<br>
+last line will be same to line 4 to form a enclourse rail<br>
+the beginning right-higher corner is (-6,-3);left-lower corner is (6,-3)<br>
+beginning is (-6,0) -> (6,0)<br>
 
 ## Usages
   Choose the self driving algorithms, and download the folder, then use Java compiler to compile. 
