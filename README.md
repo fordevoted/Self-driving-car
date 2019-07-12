@@ -37,8 +37,12 @@ beginning is (-6,0) -> (6,0)<br>
 ## Usages
   Choose the self driving algorithms, and download the folder, then use Java compiler to compile. 
 ## Feature
-
+  #### fuzzy rule
+  #### RBFN (GN)
+  #### RBFN (PSO)
+  #### RBFN (GN PSO)
 ## License
+##### Fordevoted
  105082015 資工三B 陳昱瑋 NCU CSIE
 ## Contact
  210509fssh@gmail.com
