@@ -12,18 +12,18 @@
   * Load Traing Result: load the RBFN parameter.
   * Save training Result: save the RBFN parameter.
 ## Maps format
-  >0,0,90
-18,40
-30,37
--6,-3
--6,22
-18,22
-18,50
-30,50
-30,10
-6,10
-6,-3
--6,-3
+  >0,0,90<br>
+18,40<br>
+30,37<br>
+-6,-3<br>
+-6,22<br>
+18,22<br>
+18,50<br>
+30,50<br>
+30,10<br>
+6,10<br>
+6,-3<br>
+-6,-3<br>
 
 first line is beginning（x,y,φdegree）
 2,3 line indicate destination position
