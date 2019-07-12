@@ -37,10 +37,15 @@ beginning is (-6,0) -> (6,0)<br>
 ## Usages
   Choose the self driving algorithms, and download the folder, then use Java compiler to compile. 
 ## Feature
-  #### fuzzy rule
+  I used fuzzy system to decide the turning degree and direction of the auto, and implement 4 different algorithms to decide the turning degree by input the three detect distance of right, front, left.
+  #### Fuzzy Rule
+    Design 5 fuzzy rule to decide the decide the degree.  
   #### RBFN (GN)
+    Used RBFN to decide the turning degree, input 3 detect distance, output the turining degree, and train the RBFN by using genetic algorithm
   #### RBFN (PSO)
+    Used RBFN to decide the turning degree, input 3 detect distance, output the turining degree, and train the RBFN by using PSO algorithm
   #### RBFN (GN PSO)
+    Used RBFN to decide the turning degree, input 3 detect distance, output the turining degree, and train the RBFN by using PSO-GN algorithm
 ## License
 ##### Fordevoted
  105082015 資工三B 陳昱瑋 NCU CSIE
