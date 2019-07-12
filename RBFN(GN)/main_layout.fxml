@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0000999999975" prefWidth="698.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Button id="button_openMap" layoutX="3.0" layoutY="12.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="102.0" text="Open Map" />
+    <Button id="button_run" layoutX="4.0" layoutY="57.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Run" />
+    <Pane id="pane" layoutX="265.0" layoutY="2.0" prefHeight="466.0" prefWidth="479.0" />
+    <Button id="button_openSolution" layoutX="152.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" text="Open Solution" />
+    <TextField id="textView_left" layoutX="104.0" layoutY="364.0" prefHeight="16.0" prefWidth="150.0" />
+    <Text fill="WHITE" layoutX="13.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Left distance" />
+    <Text fill="WHITE" layoutX="12.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Front distance" />
+    <TextField id="textView_mid" layoutX="104.0" layoutY="396.0" prefHeight="15.240234375" prefWidth="150.0" />
+    <Text fill="WHITE" layoutX="12.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Right distance" />
+    <TextField id="textView_right" layoutX="104.0" layoutY="431.0" prefHeight="15.240234375" prefWidth="150.0" />
+    <TextArea id="status" layoutX="4.0" layoutY="502.0" prefHeight="88.0" prefWidth="800.0" promptText="status" text="&#10;" wrapText="true" />
+    <Text fill="WHITE" layoutX="35.0" layoutY="483.0" scaleX="2.0429674387378314" scaleY="1.328078943995899" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" />
+    <Button id="button_savetrain" layoutX="4.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="SaveTraining Result" />
+    <Button id="button_opentrain" layoutX="4.0" layoutY="98.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Load Training Result" />
+    <Button id="button_train" layoutX="152.0" layoutY="57.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Train" />
+    <Text fill="WHITE" layoutX="13.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Epoch" />
+    <Text fill="WHITE" layoutX="12.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Population" />
+    <Text fill="WHITE" layoutX="12.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crossver Prob." />
+    <Text fill="WHITE" layoutX="13.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mutation Prob." />
+    <TextField id="textView_mp" layoutX="104.0" layoutY="287.0" prefHeight="16.0" prefWidth="150.0" text="0.02" />
+    <TextField id="textView_cp" layoutX="104.0" layoutY="253.0" prefHeight="16.0" prefWidth="150.0" text="0.6" />
+    <TextField id="textView_gn" layoutX="104.0" layoutY="220.0" prefHeight="16.0" prefWidth="150.0" text="1000" />
+    <TextField id="textView_epoch" layoutX="104.0" layoutY="189.0" prefHeight="16.0" prefWidth="150.0" text="10" />
+    <Text fill="WHITE" layoutX="13.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Training Time" />
+    <TextField id="textView_training_time" layoutX="104.0" layoutY="316.0" prefHeight="16.0" prefWidth="150.0" text="" />
+  </children>
+</AnchorPane>
