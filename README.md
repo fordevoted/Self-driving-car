@@ -1,10 +1,39 @@
 # Self-driving-car
   Self driving car is a kind of self driving car algorithm demo program using Java to program.
+  ![fordevoted](https://imgur.com/1G3Qc9L.png "Self driving car")
   
 ## OverView
   Self driving car is automobile's trend nowadays, and this program use three algorithms to accomplish the task. In this program, you can upload the maps file, and the auto will drive to the final by itself.<br>
-  the button introduction is following:<br>
-## Maps format  
+  the button introduction are following:<br>
+  * Open Map: open maps file, and draw the maps
+  * Open Solution: open solution file(4D, 6D are accepted), auto will drive accroding to solution file and draw the path.
+  * Run : auto will drive by itself.
+  * Train: open training dataset, and train the RBFN (if use RBFN)
+  * Load Traing Result: load the RBFN parameter.
+  * Save training Result: save the RBFN parameter.
+## Maps format
+  >0,0,90
+18,40
+30,37
+-6,-3
+-6,22
+18,22
+18,50
+30,50
+30,10
+6,10
+6,-3
+-6,-3
+
+first line is beginning（x,y,φdegree）
+2,3 line indicate destination position
+line 2 is left-higher point（x,y） in the region
+line 3 is right-lower corner（x,y） in the region
+the point (x,y) of rail will show in line 4 to the last line
+last line will be same to line 4 to form a enclourse rail
+the beginning right-higher corner is (-6,-3);left-lower corner is (6,-3)
+beginning is (-6,0) -> (6,0)
+
 ## Usages
   Choose the self driving algorithms, and download the folder, then use Java compiler to compile. 
 ## Feature
