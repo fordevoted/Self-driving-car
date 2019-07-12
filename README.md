@@ -1,5 +1,5 @@
 # Self-driving-car
-  Self driving car is a kind of self driving car algorithm demo program using Java to program.
+  Self driving car is a kind of self driving car algorithm demo program using Java and GUI is usign JavaFX to program.
   ![fordevoted](https://imgur.com/1G3Qc9L.png "Self driving car")
   
 ## OverView
