@@ -48,6 +48,6 @@ beginning is (-6,0) -> (6,0)<br>
    Used RBFN to decide the turning degree, input 3 detect distance, output the turining degree, and train the RBFN by using PSO-GN algorithm.
 ## License
 ##### Fordevoted
- 105082015 資工三B 陳昱瑋 NCU CSIE
+NCU CSIE | 105082015 | 陳昱瑋 
 ## Contact
  210509fssh@gmail.com
