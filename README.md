@@ -3,11 +3,11 @@
   ![fordevoted](https://imgur.com/1G3Qc9L.png "Self driving car")
   
 ## OverView
-  Self driving car is automobile's trend nowadays, and this program use three algorithms to accomplish the task. In this program, you can upload the maps file, and the auto will drive to the final by itself.<br>
-  the button introduction are following:<br>
-  * Open Map: open maps file, and draw the maps
-  * Open Solution: open solution file(4D, 6D are accepted), auto will drive accroding to solution file and draw the path.
-  * Run : auto will drive by itself.
+  Self driving car is automobile's trend nowadays, and this program use three algorithms to accomplish the task. In this program, you can load another map files, the auto will drive to destination by itself.<br>
+  the button introduction is following:<br>
+  * Open Map: Only you want to load another map, clicked the button. It willopen maps file, and draw the maps.
+  * Open Solution: Open solution file(4D, 6D are accepted), auto will drive accroding to solution file and draw the driving path.
+  * Run : `CAUTION: before clicked this button, you need to train model or load the solution`. Auto will drive by itself. You can cliked it many time for one map, but it will be broken when you click button during car is driving. 
   * Train: open training dataset, and train the RBFN (if use RBFN)
   * Load Traing Result: load the RBFN parameter.
   * Save training Result: save the RBFN parameter.
